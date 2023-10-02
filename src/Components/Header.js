@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Header(props) {
   return (
@@ -89,3 +90,12 @@ function Header(props) {
 }
 
 export default Header;
+
+Header.propTypes = {
+  title: PropTypes.string,
+  dropDown: PropTypes.bool,
+};
+Header.defaultProps = {
+  title: "Brand Name Please",
+  dropDown: true,
+};
