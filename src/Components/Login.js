@@ -12,7 +12,7 @@ function Login() {
         className="btn btn-danger"
         onClick={toggle}
       >
-        Switch
+        { }
       </button>
       <hr />
       {(passPage) ?
